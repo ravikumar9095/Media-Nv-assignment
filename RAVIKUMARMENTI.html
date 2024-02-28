@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/09c4201339.js" crossorigin="anonymous"></script>
+    <title>Assignment</title>
+</head>
+
+<body>
+    <div class="bg-container">
+        <div class="sidebar">
+            <div class="logo-container">
+                <div class="profile-img"></div>
+                <h1 class="logo">LOGO</h1>
+            </div>
+            <div class="menu">
+                <div>
+                    <div class="menu-option-container active">
+                        <a id="menuOption1" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption1">Bid</label>
+                    </div>
+                    <div class="menu-option-container">
+                        <a id="menuOption2" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption2">POD</label>
+                    </div>
+                    <div class="menu-option-container">
+                        <a id="menuOption3" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption3">Vendor</label>
+                    </div>
+                    <div class="menu-option-container">
+                        <a id="menuOption4" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption4">User</label>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="menu-option-container">
+                        <a id="menuOption5" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption5">Settings</label>
+                    </div>
+                    <div class="menu-option-container">
+                        <a id="menuOption6" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption6">Profile</label>
+                    </div>
+                    <div class="menu-option-container">
+                        <a id="menuOption7" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption7">Contact Us</label>
+                    </div>
+                    <div class="menu-option-container">
+                        <a id="menuOption8" href="#" class="menu-item"><img src="https://res.cloudinary.com/dnqgnmrup/image/upload/v1709040550/objects-column_ibbor7.png" alt="icon" class="icon" /></a>
+                        <label for="menuOption8">Logout</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content-container">
+            <nav class="navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item active-nav"><a href="#">Bid</a></li>
+                    <li class="nav-item"><a href="#">POD</a></li>
+                    <li class="nav-item"><a href="#">Vendor</a></li>
+                    <li class="nav-item"><a href="#">User</a></li>
+                    <li class="nav-item"><a href="#"><i class="fa-solid fa-user profile-pic"></i></i>Freight EG <i class="fa-solid fa-sort-down arrow-icon"></i></a></li>
+                </ul>
+            </nav>
+            <div class="options-container">
+                <div class="search-container">
+                    <ul class="items">
+                        <li class="item">Live</li>
+                        <li class="item">Results</li>
+                        <li class="item">History</li>
+                    </ul>
+                    <div class="search-bar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <input type="text" placeholder="Search" class="search-input" />
+                    </div>
+                </div>
+                <button class="create-btn">
+                    Create <i class="fa-solid fa-plus plus-icon"></i></span>
+                </button>
+            </div>
+            <div class="details-container">
+                <div class="status-container">
+                    <div class="status-control">
+                        <p class="status black">Live (30)</p>
+                        <p class="status green">Responded (30)</p>
+                        <p class="status red">Unresponded (30)</p>
+                    </div>
+                    <div class="date-filter">
+                        <p class="date-option active-date">Bid Created</p>
+                        <p class="date-option">Today</p>
+                        <p class="date-option">Yesterday</p>
+                        <button class="calender-button">Calendar <i class="fa-solid fa-sort-down"></i></button>
+                        <i class="fa-sharp fa-solid fa-filter filter-color"></i>
+                    </div>
+                </div>
+                <table class="table">
+                    <tr class="table-header-container">
+                        <th>S.No.</th>
+                        <th>Bid Number<br />Created By</th>
+                        <th>Start Date<br />& Time</th>
+                        <th>Bid Time<br />Remaining</th>
+                        <th>From city<br />To city</th>
+                        <th>Vehicle Type, Size<br />Body, No. of Vehicles</th>
+                        <th>Material Weight<br />(in kg)</th>
+                        <th>Response</th>
+                        <th>Assigned Staff</th>
+                        <th>Details</th>
+                    </tr>
+                    <tr>
+                        <td class="table-cell">
+                            <div class="green-dot"></div>1
+                        </td>
+                        <td class="table-cell">#122345678123<br /><span class="text">Sunder Yadav</span></td>
+                        <td class="table-cell">14/02/2024<br /><span class="text">05:40 Pm</span></td>
+                        <td class="table-cell">7hr 20 min</td>
+                        <td class="table-cell">Gurgaon<br /><i class="fa-solid fa-arrow-down arrow-down"></i><br />Mumbai</td>
+                        <td class="table-cell">Truck, 20 ft<br />Close body, 1</td>
+                        <td class="table-cell">4000 kg</td>
+                        <td class="table-cell">4<br /><span class="view-result-text">View results</span></td>
+                        <td class="table-cell">Mohit<br /><span class="text">5215001161264</span></td>
+                        <td class="table-cell view-result-text">View Details</td>
+                    </tr>
+                    <tr class="cell-container">
+                        <td colspan="100%">
+                            <div class="journey-details">
+                                <div>
+                                    <p class="bid-no"><span class="bid-heading">Bid No:</span> 16515120650125 <span class="bid-name">(Sunder Yadav)</span></p>
+                                    <div class="location-details-container">
+                                        <div class="location-details">
+                                            <div class="location-dot"></div>
+                                            <i class="fa-solid fa-location-dot location-mark"></i>
+                                        </div>
+                                        <div>
+                                            <div>
+                                                <p class="location-name">Manesar, Gurugram, <span class="state">Haryana</span></p>
+                                                <p class="location-address"><span class="loading-point">Loading Point:</span> Ramchandra Ramniwas oil mill, Alwar, Rajasthan</p>
+                                            </div>
+                                            <div>
+                                                <p class="location-name">Kotputli, <span class="state">Rajasthan</span></p>
+                                                <p class="location-address"><span class="unloading-point">Unloading Point:</span> Ramchandra Ramniwas oil mill, Alwar, Rajasthan</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p class="loading-date"><i class="fa-solid fa-calendar details-icon"></i>Vehicle loading date: 17/02/2024</p>
+                                    <p class="details-name"><i class="fa-solid fa-bus-simple details-icon"></i>Vehicle Type: <span class="details"> 20 ft Truck (Close Body)</span><span class="cng-background">CNG</span></p>
+                                    <p class="details-name"><i class="fa-solid fa-cube details-icon"></i>Material: <span class="details agri">Agricultural Produts</span> Weight : <span class="details">14 Tonnes</span></p>
+                                    <p class="details-name"><i class="fa-solid fa-calendar details-icon"></i>Request Date: <span class="details">15/02/2024</span><i class="fa-solid fa-calendar details-icon expiry-icon"></i>Expiry Date: <span class="details">15/02/2024</span></p>
+                                    <p class="details-name">Remarks: <span class="details">Urgent Delivery</span></p>
+                                </div>
+                                <div>
+                                    <P class="details-name"><i class="fa-solid fa-user details-icon"></i>Assigned Staff: <span class="details">Rahul Pandey</span></P>
+                                    <P class="details-name"><i class="fa-solid fa-phone details-icon"></i>Phone number: <span class="details">+91 332423442442</span></P>
+                                    <P class="details-name">Target Price: <span class="details">Rs 5000</span></P>
+                                    <P class="details-name">Number of Bider for this Bid: <span class="details">54</span></P>
+                                    <p class="details">View Details</p>
+                                    <p class="view-less-text">view less <i class="fa-solid fa-caret-up"></i></p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="cell-container">
+                        <td class="table-cell">
+                            <div class="green-dot"></div>1
+                        </td>
+                        <td class="table-cell">#122345678123<br /><span class="text">Sunder Yadav</span></td>
+                        <td class="table-cell">14/02/2024<br /><span class="text">05:40 Pm</span></td>
+                        <td class="table-cell">7hr 20 min</td>
+                        <td class="table-cell">Gurgaon<br /><i class="fa-solid fa-arrow-down arrow-down"></i><br />Mumbai</td>
+                        <td class="table-cell">Truck, 20 ft<br />Close body, 1</td>
+                        <td class="table-cell">4000 kg</td>
+                        <td class="table-cell">4<br /><span class="view-result-text">View results</span></td>
+                        <td class="table-cell">Mohit<br /><span class="text">5215001161264</span></td>
+                        <td class="table-cell view-result-text">View Details</td>
+                    </tr>
+                    <tr class="cell-container">
+                        <td class="table-cell">
+                            <div class="green-dot"></div>1
+                        </td>
+                        <td class="table-cell">#122345678123<br /><span class="text">Sunder Yadav</span></td>
+                        <td class="table-cell">14/02/2024<br /><span class="text">05:40 Pm</span></td>
+                        <td class="table-cell">7hr 20 min</td>
+                        <td class="table-cell">Gurgaon<br /><i class="fa-solid fa-arrow-down arrow-down"></i><br />Mumbai</td>
+                        <td class="table-cell">Truck, 20 ft<br />Close body, 1</td>
+                        <td class="table-cell">4000 kg</td>
+                        <td class="table-cell">4<br /><span class="view-result-text">View results</span></td>
+                        <td class="table-cell">Mohit<br /><span class="text">5215001161264</span></td>
+                        <td class="table-cell view-result-text">View Details</td>
+                    </tr>
+                    <tr class="cell-container">
+                        <td class="table-cell">
+                            <div class="green-dot"></div>1
+                        </td>
+                        <td class="table-cell">#122345678123<br /><span class="text">Sunder Yadav</span></td>
+                        <td class="table-cell">14/02/2024<br /><span class="text">05:40 Pm</span></td>
+                        <td class="table-cell">7hr 20 min</td>
+                        <td class="table-cell">Gurgaon<br /><i class="fa-solid fa-arrow-down arrow-down"></i><br />Mumbai</td>
+                        <td class="table-cell">Truck, 20 ft<br />Close body, 1</td>
+                        <td class="table-cell">4000 kg</td>
+                        <td class="table-cell">4<br /><span class="view-result-text">View results</span></td>
+                        <td class="table-cell">Mohit<br /><span class="text">5215001161264</span></td>
+                        <td class="table-cell view-result-text">View Details</td>
+                    </tr>
+                    <tr class="cell-container">
+                        <td class="table-cell">
+                            <div class="green-dot"></div>1
+                        </td>
+                        <td class="table-cell">#122345678123<br /><span class="text">Sunder Yadav</span></td>
+                        <td class="table-cell">14/02/2024<br /><span class="text">05:40 Pm</span></td>
+                        <td class="table-cell">7hr 20 min</td>
+                        <td class="table-cell">Gurgaon<br /><i class="fa-solid fa-arrow-down arrow-down"></i><br />Mumbai</td>
+                        <td class="table-cell">Truck, 20 ft<br />Close body, 1</td>
+                        <td class="table-cell">4000 kg</td>
+                        <td class="table-cell">4<br /><span class="view-result-text">View results</span></td>
+                        <td class="table-cell">Mohit<br /><span class="text">5215001161264</span></td>
+                        <td class="table-cell view-result-text">View Details</td>
+                    </tr>
+                    <tr class="cell-container">
+                        <td class="table-cell">
+                            <div class="green-dot"></div>1
+                        </td>
+                        <td class="table-cell">#122345678123<br /><span class="text">Sunder Yadav</span></td>
+                        <td class="table-cell">14/02/2024<br /><span class="text">05:40 Pm</span></td>
+                        <td class="table-cell">7hr 20 min</td>
+                        <td class="table-cell">Gurgaon<br /><i class="fa-solid fa-arrow-down arrow-down"></i><br />Mumbai</td>
+                        <td class="table-cell">Truck, 20 ft<br />Close body, 1</td>
+                        <td class="table-cell">4000 kg</td>
+                        <td class="table-cell">4<br /><span class="view-result-text">View results</span></td>
+                        <td class="table-cell">Mohit<br /><span class="text">5215001161264</span></td>
+                        <td class="table-cell view-result-text">View Details</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
